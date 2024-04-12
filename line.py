@@ -20,7 +20,7 @@ def line():
 
     print()
     
-    print(f"""Para la siguiente ecuación: 
+    print(f"""Para la siguiente ecuación:
         Y={A}*X+{B}""")
 
     print()

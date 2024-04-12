@@ -19,17 +19,17 @@ def line():
     print(f"El coeficiente X2 de su ecuación de la recta es: {X2}")
 
     print()
-    
+
     print(f"""Para la siguiente ecuación:
-        Y={A}*X+{B}""")
+\tY = {A}X + {B}""")
 
     print()
-    
-    print(f"""Dados los siguientes puntos: 
-        P1{X1, Y1}
-        P2{X2, Y2}""")
+
+    print(f"""Dados los siguientes puntos:
+\tP1 {X1, Y1}
+\tP2 {X2, Y2}""")
 
     print()
 
     distance = math.dist(P1, P2)
-    print(f"La distancia entre los puntos P1 y P2 es: {distance}")
+    print(f"La distancia entre ellos es: {distance}")
